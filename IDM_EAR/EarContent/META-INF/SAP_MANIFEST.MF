@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Ext-SDM-SDA-Comp-Version: 1
+softwaretype: J2EE
+JarSAP-Standalone-Version: 20090803.1000
+JarSAPProcessing-Version: 20090907.1000
+deployfile: sda-dd.xml
+archivetype: DC
+JarSAP-Version: 20090803.1000
+keyname: IDM_EAR
+keyvendor: sap.com
+keylocation: localhost
+keycounter: 2016.09.21.14.42.55
+componentelement: <componentelement  name="IDM_EAR" vendor="sap.com" componenttype="DC" 
+ subsystem="NO_SUBSYS" location="localhost" counter="2016.09.21.14.42.5
+ 5" deltaversion="F" updateversion="LB-20160921144256" componentprovide
+ r="SAP AG" archivetype="DC"/> 
+JarSL-Version: 20100616.1800
+compress: true
+

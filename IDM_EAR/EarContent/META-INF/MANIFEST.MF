@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Implementation-Title: IDM_EAR
+Implementation-Version: 2016.09.21.14.42.55
+Implementation-Vendor-Id: sap.com
+Specification-Vendor: SAP AG
+

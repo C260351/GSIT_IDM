@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>SAP Access Review</title>
+          
+          <!-- data-sap-ui-preload="" -->
+          
+		<script id="sap-ui-bootstrap"
+			src="resources/sap-ui-cachebuster/sap-ui-core.js"
+			data-sap-ui-libs="sap.m,sap.ui.commons,sap.ui.table"
+			data-sap-ui-theme="sap_bluecrystal"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-xx-bindingSyntax="complex"
+			data-sap-ui-appCacheBuster="./"
+			data-sap-ui-resourceroots='{"IDM": ""}'>
+		</script>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+			function appInit() {
+				
+				var mShell= new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "IDM"
+					})
+				}).placeAt("content");
+		    }
+		</script>
+		  
+	</head>
+
+	<body class="sapUiBody" id="content" onload="appInit();">
+	 <div id="splash-screen">
+   		 <div class="splash-screen-text">Loading...</div>
+  	</div>
+	
+	</body>
+
+</html>

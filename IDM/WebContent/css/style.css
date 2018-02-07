@@ -1,0 +1,82 @@
+/* Enter your custom styles here */
+.sapUiTableTreeIconNodeClosed {
+    background-image: url(../img/TreeNode_Coll.gif);
+}
+.sapUiTableTreeIconNodeOpen {
+    background-image: url(../img/TreeNode_Exp.gif);
+}
+.bcolor{
+	background-color: white !important;
+}
+.sapUiLbl {
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #666666;
+}
+.selectedRow{
+  				font-weight:bold !important;
+  				color: blue;
+  				text-shadow:0px 0px 10px white;
+}
+/*.sapUiTfDsbl {
+    background-color: white !important;
+    color: #333333;
+    cursor: text;
+}*/
+.sapUiTf {
+	 background-color: white !important;
+	 font-family: Arial,Helvetica,sans-serif;
+     font-size: 12px;
+}
+body {
+      overflow: hidden
+    }
+#oTable-table{
+ cursor:pointer;
+}
+#splash-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      background-color: #e7e7e7 !important;
+      background-size: 100% !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+    }
+#splash-screen > * {
+      /* center child divs  */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* x-border-box */
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      /* x-unselectable */
+      user-select: none;
+      -o-user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: -moz-none;
+      -webkit-user-select: none;
+      cursor: default;
+    }    
+.splash-screen-text {
+      z-index: 20002;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      margin-top: -50px;
+      margin-left: -50px;
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 13px;
+      text-align: center;
+      text-shadow: 1px 1px #cccccc;
+      vertical-align: middle;
+      color: #002951;   
+    }
+ 
+    

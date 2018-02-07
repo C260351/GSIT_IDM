@@ -1,0 +1,27 @@
+<template data-controller-name="IDM.controller.View1">
+	<div data-sap-ui-type="sap.m.App" >
+		
+		<div data-sap-ui-type="sap.m.Page" data-title="{i18n>title}" >
+			
+			<div data-sap-ui-aggregation="customHeader">
+			                 <div data-sap-ui-type="sap.m.Bar">  
+                                        <div data-sap-ui-aggregation="contentMiddle">  
+                                                  <div data-sap-ui-type="sap.m.Label" data-text="SAP Access Review">  
+                                                  </div>  
+                                        </div> 
+                                         <div data-sap-ui-aggregation="contentRight">  
+                                                  <div id="CtrlDisplayName"></div>  
+                                        </div> 
+                              </div>   
+			</div>
+
+
+			<div data-sap-ui-aggregation="content" id="content" >
+				<div id="mycontent" ></div>
+				<div id="userdetails" style="visibility: hidden"></div>
+				<div id="details" style="visibility: hidden" ></div>
+			</div>
+			
+		</div>
+	</div>
+</template>
